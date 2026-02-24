@@ -5,7 +5,6 @@ using UnityEngine;
 public class CubeData : MonoBehaviour
 {
     
-
     void Start()
     {
         if (Physics.Raycast(transform.position, transform.up))

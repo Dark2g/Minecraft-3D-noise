@@ -148,12 +148,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335d516f1e5d19b4d8c8d966db238e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 7441045577532379253, guid: 0cc3cbd1fb671964388752e1a1f5089e, type: 3}
-  width: 50
-  height: 20
-  large: 50
-  seed: 6
-  detail: 30
+  grassCube: {fileID: 3384538345468803996, guid: 257d9bccab205994d82b7e95c05e091b, type: 3}
+  sandCube: {fileID: 1947615633715766267, guid: bc4aff22e4847c94fb196e45734de834, type: 3}
+  mountainCube: {fileID: 7499581040577612136, guid: dbc1d1dfd4ad6384bbf102e54570d9ac, type: 3}
+  waterCube: {fileID: 7675367323458636504, guid: 784b61ec91277dc4d90d696ad24c592e, type: 3}
+  waterLevel: 6
+  width: 100
+  length: 100
+  seed: 123
+  biomeScale: 65.9
+  terrainScale: 20
 --- !u!4 &246441173
 Transform:
   m_ObjectHideFlags: 0
